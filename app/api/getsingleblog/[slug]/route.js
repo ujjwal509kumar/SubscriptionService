@@ -7,7 +7,7 @@ const prisma = new PrismaClient();
 export async function GET(req, { params }) {
   const { slug } = params;
 
-  console.log('Received slug:', slug);
+  // console.log('Received slug:', slug);
 
   try {
     const session = await getServerSession({ req });
