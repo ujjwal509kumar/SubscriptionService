@@ -61,7 +61,7 @@ const BlogPost = () => {
           <div className="text-center max-w-lg">
             <h1 className="text-4xl font-bold text-red-600 mb-4">Error 500</h1>
             <p className="text-lg text-gray-700 mb-6">
-              Sorry, we couldn&apos;t find the blog post you&apos;re looking for.
+            &quot;Looks like you&apos;ve stumbled into a digital dead end, friend! It seems you&apos;ve either mistyped the URL, tried to sneak a peek without logging in, or are hoping to bypass the subscription wall. Don&apos;t worry, our developers have put in serious overtime to make sure that&apos;s not happening. It&apos;s like trying to sneak into a secret concert without a ticket – you might get close, but you&apos;re definitely not getting in.&quot;
             </p>
             <a href="/pages/exploreblogs">
               <button className="px-6 py-3 text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition">
