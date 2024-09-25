@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link'
 import { useSession, signOut } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 
@@ -29,10 +30,10 @@ const Header = () => {
                     <span className="ml-3 text-xl">Tailblocks</span>
                 </a>
                 <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                    <a className="mr-5 hover:text-gray-900">First Link</a>
-                    <a className="mr-5 hover:text-gray-900">Second Link</a>
-                    <a className="mr-5 hover:text-gray-900">Third Link</a>
-                    <a className="mr-5 hover:text-gray-900">Fourth Link</a>
+                    <Link className="mr-5 hover:text-gray-900" href="/">Home</Link>
+                    <Link className="mr-5 hover:text-gray-900" href="/pages/profile">Profile</Link>
+                    <Link className="mr-5 hover:text-gray-900" href="/">About Us</Link>
+                    <Link className="mr-5 hover:text-gray-900" href="/">Contact</Link>
                 </nav>
                 <button
                     onClick={handleAuth}
