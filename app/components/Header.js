@@ -32,8 +32,8 @@ const Header = () => {
                 <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                     <Link className="mr-5 hover:text-gray-900" href="/">Home</Link>
                     <Link className="mr-5 hover:text-gray-900" href="/pages/profile">Profile</Link>
-                    <Link className="mr-5 hover:text-gray-900" href="/">About Us</Link>
-                    <Link className="mr-5 hover:text-gray-900" href="/">Contact</Link>
+                    <Link className="mr-5 hover:text-gray-900" href="/pages/aboutus">About Us</Link>
+                    <Link className="mr-5 hover:text-gray-900" href="/pages/contactus">Contact</Link>
                 </nav>
                 <button
                     onClick={handleAuth}
